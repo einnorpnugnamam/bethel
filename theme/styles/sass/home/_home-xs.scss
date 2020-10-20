@@ -1,0 +1,16 @@
+main.main {
+	.home {
+		.widget-1 {
+			.box-container {
+				.box {
+					.img-vid-container {
+						&:after {
+							height: 30px;
+							bottom: -29px;
+						}
+					}
+				}
+			}
+		}
+	}
+}
