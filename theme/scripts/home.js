@@ -1,6 +1,9 @@
 var home = {
 	init: function() {
+		// initialized all slider in home page
 		home.sliderInitialized();
+
+		// for footer copyright year
 		home.getYear();
 	},
 
@@ -35,12 +38,12 @@ var home = {
 
 		nextSlider = '';
 		nextSlider = '<div class="next-slider slick-arrow">';
-				nextSlider += '<i class="fa fa-chevron-right"></i>';
+			nextSlider += '<i class="fa fa-chevron-right"></i>';
 		nextSlider += '</div>';
 
 		prevSlider = '';
 		prevSlider = '<div class="previous-slider slick-arrow">';
-				prevSlider += '<i class="fa fa-chevron-left"></i>';
+			prevSlider += '<i class="fa fa-chevron-left"></i>';
 		prevSlider += '</div>';
 
 		$('.project-slides').slick({
@@ -50,18 +53,18 @@ var home = {
   			dots: false,
   			nextArrow: nextSlider,
   			prevArrow: prevSlider
-		})
+		});
 	},
 
 	setNextPrevImageArrow: function() {
 		// get previous slides
 		var prevImgSrc = $('.slick-active').prev().find('img').attr('src');
-	    var imgPrev = '<img src="' + prevImgSrc + '" alt="Lorem Ipsum" />'
+	    var imgPrev = '<img src="' + prevImgSrc + '" alt="Lorem Ipsum" />';
 	    $('.img-prev-slide').html(imgPrev);
 
 	    // get next slides
 	    var nextImgSrc = $('.slick-active').next().find('img').attr('src');
-	    var imgNext = '<img src="' + nextImgSrc + '" alt="Lorem Ipsum" />'
+	    var imgNext = '<img src="' + nextImgSrc + '" alt="Lorem Ipsum" />';
 	    $('.img-next-slide').html(imgNext);
 	},
 

@@ -1,14 +1,8 @@
-/*!
- * [Project Name]
- * ABS-CBN Corporation 2017
- */
-
-var ABSCBN = (function() {
+var load = (function() {
 	'use strict';
 
 	function init() {
 		// Your code here
-
 		if($(".main .home").length > 0) {
 			home.init();
 		}
@@ -19,4 +13,4 @@ var ABSCBN = (function() {
 	};
 }());
 
-jQuery(document).ready(function($) { ABSCBN.init(); });
+jQuery(document).ready(function($) { load.init(); });
