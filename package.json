@@ -1,5 +1,5 @@
 {
-	"name": "boilerplate",
+	"name": "Boilerplate",
 	"version": "1.0.0",
 	"description": "HTML Boilerplate is a set of template files - HTML, CSS, JS - and site structure. Follow the guidelines for a standardized coding style.",
 	"main": "gulpfile.js",
