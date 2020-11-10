@@ -1,0 +1,18 @@
+header.header {
+	width: 90%;
+
+	.flex-box {
+		.logo {
+			width: 199px;
+			display: inline-block;
+
+			@media (max-width: 380px) {
+				width: 160px;
+
+				img {
+					width: 100%;
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,31 @@
+main.main {
+	.home {
+		.content-form {
+			.flex-box {
+				.box {
+					.box-container {
+						&.hidden-sm {
+							display: block;
+						}
+
+						&.visible-sm {
+							display: none;
+						}
+					}
+
+					&.right {
+						.field-container {
+							label {
+								width: 100px;
+							}
+
+							input[type=text] {
+								width: calc(100% - 105px);
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}

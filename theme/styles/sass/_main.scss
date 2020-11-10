@@ -15,11 +15,12 @@ html {
 }
 
 body {
-	font-size: 14px;
+	font-size: 16px;
 	min-width: 300px;
 	font-family: $font-primary;
 	background: #fff;
-	color: #fff;
+	color: #3F3F3F;
+	font-weight: 400;
 }
 
 
@@ -73,8 +74,12 @@ footer {
 	@import 'footer/footer';
 }
 
-.flex-box {
-	display: flex;
+.visible-md {
+	display: none;
+}
+
+.a-link {
+	color: #009FC3;
 }
 
 

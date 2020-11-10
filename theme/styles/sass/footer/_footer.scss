@@ -1,194 +1,42 @@
 &.footer {
-	background: url('/theme/img/template/footer-bg.png');
-    line-height: 1.25;
-    color: hsla(0,0%,7%,.95);
-    font-size: 12px;
-    letter-spacing: .1px;
-    padding: 20px 0 0;
+	width: 80%;
+	margin: 30px auto;
+	.flex-box {
+		@include flex-justify();
+		align-items: center;
 
-    .container-fluid {
-	    padding-right: 15px;
-	    padding-left: 15px;
-	    margin-right: auto;
-	    margin-left: auto;
-	    width: 76%;
-	    @include flex();
-	    justify-content: center;
+		.a-link {
+			font-size: 14px;
+			font-weight: 400;
+			text-decoration: none;
+
+			&:hover {
+				text-decoration: underline;
+			}
+
+			&:first-child {
+				font-weight: 700;
+			}
+		}
 	}
 
-    .footer-links {
-    	ul {
-    		list-style: none;
-    		display: flex;
-
-    		li {
-    			padding: 0 20px;
-    			position: relative;
-
-    			a {
-    				color: #fff;
-    				text-decoration: none;
-
-    				&:hover {
-    					text-decoration: underline;
-    				}
-    			}
-
-    			&:before {
-    				content: "";
-    				border-left: 1px solid #fff;
-    				height: calc(100% - 4px);
-    				position: absolute;
-    				left: 0;
-    				top: 3px;
-    			}
-
-    			&:first-child:before {
-    				display: none;
-    			}
-    		}
-    	}
-    }
-
-    .display-flex {
-    	@include flex();
-    	width: 76%;
-    	margin: 0 auto;
-    	color: #fff;
-
-    	.box {
-    		width: 33.333336%;
-    		padding: 30px 25px;
-
-    		&.logo-container {
-    			text-align: center;
-
-    			a {
-    				margin-top: 30px;
-    				display: block;
-    				color: #fff;
-    				text-decoration: none;
-
-    				h2, p { margin: 0; }
-
-    				h2 {
-    					font-size: 30px;
-    					font-weight: 700;
-    				}
-    			}
-    		}
-
-    		&.contact-details {
-    			p {
-    				font-size: 18px;
-    			}
-
-    			.contact-info {
-    				padding-top: 30px;
-
-    				p {
-    					@include flex();
-    					margin: 5px 0;
-
-    					a {
-    						color: #fff;
-    						text-decoration: none;
-
-    						&:hover {
-    							text-decoration: underline;
-    						}
-    					}
-    				}
-    				.fa {
-    					text-align: center;
-    					width: 35px;
-    					margin-right: 10px;
-    				}
-
-    				.fa-mobile {
-    					font-size: 40px;
-    				}
-
-    				.fa-envelope-o {
-    					font-size: 30px;
-    				}
-
-    				.socials {
-    					margin-top: 35px;
-    					@include flex();
-
-    					a {
-    						margin-right: 15px;
-    						display: inline-block;
-    						text-align: center;  
-
-    						i.fa {
-    							font-size: 30px;
-    							width: initial;
-    							color: #fff;
-    							margin-right: 0;
-    						}
-    					}
-    				}
-    			}
-    		}
-
-    		&.contact-form {
-    			h2 {
-    				font-size: 30px;
-    			}
-
-    			.form-container {
-    				.input-field {
-					    width: 80%;
-					    height: 40px;
-					    margin: 5px 0;
-					    text-indent: 5px;
-					    outline: none;
-
-					    &.text-area {
-					    	height: 100px;
-					    }
-					}
-
-					.btn-submit {
-						width: 100px;
-					    height: 30px;
-					    border-radius: 30px;
-					    border: 1px solid #fff;
-					    background-color: #0257ab;
-					    color: #fff;
-					    cursor: pointer;
-					    margin-top: 10px;
-					}
-    			}
-    		}
-    	}
-    }
-
-    .copyright {
-    	height: 60px;
-	    line-height: 60px;
-	    text-align: center;
-	    background-color: #fff;
-	    color: #333333;
-	    font-size: 14px;
-	    font-weight: 500;
-    }
+	.copy {
+		display: none;
+	}
 }
 
-::placeholder {
-  	color: #333333;
-  	opacity: 1; /* Firefox */
-  	font-weight: 700;
-}
+// ::placeholder {
+//   	color: #333333;
+//   	opacity: 1; /* Firefox */
+//   	font-weight: 700;
+// }
 
-:-ms-input-placeholder { /* Internet Explorer 10-11 */
- 	color: #333333;
- 	font-weight: 700;
-}
+// :-ms-input-placeholder { /* Internet Explorer 10-11 */
+//  	color: #333333;
+//  	font-weight: 700;
+// }
 
-::-ms-input-placeholder { /* Microsoft Edge */
- 	color: #333333;
- 	font-weight: 700;
-}
+// ::-ms-input-placeholder { /* Microsoft Edge */
+//  	color: #333333;
+//  	font-weight: 700;
+// }

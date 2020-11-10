@@ -21,10 +21,7 @@ To make sure you have Node, npm, and gulp installed, run three simple commands t
 3. **Run gulp to compile and watch**  
   `gulp` or `npm start`
 
-
-## Carousel
-[Slick @ 1.8.0](https://github.com/kenwheeler/slick/)
-For settings and usage, please read the documentation
-
 ## Use the mixin found in variables.scss
 flex(), absolute centering(), etc.
+
+## If you are using windows kindly upgrade/downgrade your node version into v11.15.0

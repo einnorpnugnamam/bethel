@@ -2,11 +2,6 @@
 // Media Queries //
 ///////////////////
 
-// Retina query (remove when not needed)
-@media (-webkit-min-device-pixel-ratio: 2), (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
-
-}
-
 // Largest devices
 @media (max-width: $screen-lg) {
 
@@ -14,17 +9,30 @@
 
 // Large devices
 @media (max-width: $screen-md) {
+	.visible-md {
+		display: block;
+		background-color: #F6F6F6;
+		height: 66px;
+		text-align: center;
+    	line-height: 66px;
 
+    	a {
+    		color: #C4C4C4;
+    		font-size: 14px;
+    	}    	
+	}
+
+	@import 'home/home-md';
 }
 
 // Medium devices
 @media (max-width: $screen-sm) {
-	@import 'header/header-sm';
 	@import 'home/home-sm';
 	@import 'footer/footer-sm';
 }
 
 // Small devices
 @media (max-width: $screen-xs) {
+	@import 'header/header-xs';	
 	@import 'home/home-xs';
 }

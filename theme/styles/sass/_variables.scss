@@ -9,8 +9,8 @@ $screen-md: 960px;
 $screen-lg: 1240px;
 
 // Fonts
-$font-base:			Arial, 'Helvetica Neue', Helvetica, sans-serif;
-$font-primary:		'Source Sans Pro', $font-base;
+$font-base:			'Helvetica Neue', Helvetica, sans-serif;
+$font-primary:		$font-base;
 
 // Micro clearfix
 // http://nicolasgallagher.com/micro-clearfix-hack/

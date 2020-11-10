@@ -45,9 +45,7 @@ gulp.task('styles', function () {
 gulp.task('scripts', function () {
 	gulp.src([
 		'theme/scripts/master.js', 
-		'theme/scripts/home.js',
-		'theme/scripts/faq.js',
-		'theme/scripts/contact-us.js'])
+		'theme/scripts/home.js',])
 		.pipe(plumber({
 			errorHandler: function (error) {
 				console.log(error.message);

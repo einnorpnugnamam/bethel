@@ -46,35 +46,15 @@
 </head>
 <body>
     <div class="wrapper">
+        <div class="visible-md">
+            <a href="#">View this in your browser</a>
+        </div>
         <header class="header">
             <div class="flex-box">
                 <a href="/" class="logo">
-                    <img src="/theme/img/template/logo.png">
-                    <span class="text-logo">
-                        <h1 class="main-text-logo">Chula Vista Electric Co.</h1>
-                        <span class="sub-text-logo">Innovative Electrical Contracting &amp; Network Systems</span>
-                    </span>
+                    <img src="/theme/img/template/logo.png" alt="Lorem Ipsum">
                 </a>
-
-                <nav class="navigation">
-                    <ul class="menu">
-                        <li>
-                            <a href="#">Services</a>
-                        </li>
-                        <li>
-                            <a href="#">Projects</a>
-                        </li>
-                        <li>
-                            <a href="#">Renewable Energy</a>
-                        </li>
-                        <li>
-                            <a href="#">About Us</a>
-                        </li>
-                        <li class="active">
-                            <a href="#">Contact Us</a>
-                        </li>
-                    </ul>
-                </nav>
+                <a href="#" class="phone-number a-link">(03) 9873 8866</a>
             </div>
         </header>
         <main class="main">
@@ -82,63 +62,24 @@
             <div class="blocker"></div>
         </main>
         <footer class="footer">
-            <div class="container-fluid">
-                <nav class="footer-links">
-                    <ul>
-                        <li><a href="#">Services</a></li>
-                        <li><a href="#">Projects</a></li>
-                        <li><a href="#">Renewable Energy</a></li>
-                        <li><a href="#">News</a></li>
-                        <li><a href="#">About Us</a></li>
-                        <li><a href="#">Contact Us</a></li>
-                    </ul>
-                </nav>
+            <div class="flex-box hidden-sm">
+                <a href="#" class="a-link">
+                    Contact Us  /  Privacy Policy
+                </a>
+                <a href="#" class="a-link">
+                    &copy; Bethel Funerals. All rights reserved.
+                </a>
             </div>
-            <div class="display-flex">
-                <div class="box logo-container">
-                    <a href="#">
-                        <img src="/theme/img/template/footer-logo.png" alt="Lorem Ipsum" />
-                        <h2>Chula Vista Electric Co.</h2>
-                        <p>Innovative Electrical Contracting &amp; Network Systems</p>
-                    </a>
-                </div>
-                <div class="box contact-details">
-                    <p>
-                        CVE exists to empower organizations with reliable and advanced electrical systems and networks.
-                    </p>
-                    <div class="contact-info">
-                        <p>
-                            <i class="fa fa-mobile" aria-hidden="true"></i><span>619-420-4500</span>
-                        </p>
-                        <p>
-                            <i class="fa fa-envelope-o" aria-hidden="true"></i>
-                            <a href="mailto:contactus@c-v-e.com"><span>contactus@c-v-e.com</span></a>
-                        </p>
-                        <div class="socials">
-                            <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-                            <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
-                            <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-                            <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
-                            <a href="#"><i class="fa fa-youtube-play" aria-hidden="true"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="box contact-form">
-                    <h2>CONTACT US</h2>
-                    <div class="form-container">
-                        <input type="text" placeholder="First Name" class="input-field" />
-                        <input type="text" placeholder="Last Name" class="input-field" />
-                        <input type="text" placeholder="Email Address" class="input-field" />
-                        <textarea placeholder="Message" class="input-field text-area"></textarea>
-                        <input type="button" name="submit" class="btn-submit" value="Submit" />
-                    </div>
-                </div>
-            </div>
-            <div class="copyright">
+
+            <div class="copy">
+                <p>Copyright &copy; <span class="copyright-year">2020</span> Bethel Funerals, All rights reserved.</p>
                 <p>
-                    <span>COPYRIGHT ALL RESEARVED &copy; <span class="copyright-year"></span> CHULA VISTA ELECTRIC CO.</span>
-                    |
-                    <span>WEB DESIGN BY DOG AND ROOSTER, INC.</span>
+                    Our mailing address is:
+                    620 Frankston-Dandenong Road, Carrum Downs, VIC 3201
+                </p>
+                <p>
+                    Want to change how you receive these emails?
+                    You can unsubscribe from this list.
                 </p>
             </div>
         </footer>
